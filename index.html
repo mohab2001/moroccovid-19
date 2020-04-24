@@ -7,6 +7,11 @@
     <link href="layout/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="layout/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 	<link href="layout/css/index.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#diet{ color: red; }
+		#sick{ color: red; }
+		#good{ color: green; }
+	</style>
 </head>
 <body>
 	
@@ -51,18 +56,18 @@
 		<h1>مستجدات فيروس كورونا بالمغرب</h1>
 		<div class="row">
 			<div class="col-md-3">
-				<div class="stat">
+				<div class="stat" id="diet">
 					الوفيات
 					<span>158</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3" id="good">
 				<div class="stat">
 					المتعافون
 					<span>486</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3" id="sick">
 				<div class="stat">
 					الحالات المؤكدة
 					<span>3758</span>
